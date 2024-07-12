@@ -17,7 +17,7 @@ ng add angular-cli-ghpages
 ```
 
 
-4. Deploy  your app using ng deploy command
+4. Deploy your app using **ng deploy** command
 ```
 ng deploy --base-href=your-link-to-gh-pages
 ```
@@ -26,15 +26,16 @@ Ex.
 ng deploy --base-href=https://x404.github.io/deploy-angular-to-gh-pages/
 ```
 
-Note: replace your link to gh-pages with your actual link to gh-pages
+Note: 
+- replace your link to gh-pages with your actual link to gh-pages
 
+5. Copy all files from dist directory to docs directory or before deploy your app with **ng deploy** change the output path you have to change **outputPath** and the build options.
 
 
 UPDATED: If the App shows the README file, please navigate to the gh-pages setting on Github and ensure that the selected branch is gh-pages but not main or master.
 
 
 References:
+https://www.npmjs.com/package/angular-cli-ghpages
 https://angular.io/guide/deployment#deploy-to-github-pages 
 npmjs package 'angular-cli-ghpages' 
-
-You may also like ⇒ Deploying Angular Apps to Netlify  
