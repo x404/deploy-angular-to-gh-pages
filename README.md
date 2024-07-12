@@ -2,13 +2,13 @@
 
 
 1. Preconditions:
-1.1 A github account
-1.2 A Github Repo
+1.1. A github account
+1.2. A Github Repo
 
 2. Deployment to gh-pages:
-2.1 Create a Github repository for your project.
-2.2 Push your code to the main branch
-2.3 Create a **gh-pages** branch - This is an invaluable hack that will help us get the gh-pages link to help us set the base-href
+2.1. Create a Github repository for your project.
+2.2. Push your code to the main branch
+2.3. Create a **gh-pages** branch - This is an invaluable hack that will help us get the gh-pages link to help us set the base-href
 Navigate to the settings of your Github repo to get the link to the published site
 
 3. Back to your project locally add the [angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages)
